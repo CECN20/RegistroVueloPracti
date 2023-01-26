@@ -1,0 +1,23 @@
+ws = 0 
+while ws == 1:
+    print("Bienvenidos a VolandoUC")
+    print("1.Ver asientos disponibles")
+    print("2.Comprar asiento")
+    print("3.Anular vuelo")
+    print("4.Modificar datos de pasajero")
+    print("5. Salir")
+    try:
+        op = int(input("Ingrese opcion: \t"))
+        if (op >= 1 and op<=5):
+            if op == 1:
+            if op == 5:
+                print("¿Seguro desea salir?")
+                continua = int(input("Ingrese la opcion: 1.SI \t 2.NO:\n"))
+                if continua == 1:
+                    ws = 1
+                else:
+                    print("Continua")
+    except:
+        print("Devuelta")
+print("GRACIAS POR VISITARNOS")
+
